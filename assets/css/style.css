@@ -60,19 +60,23 @@ h3{
 .contactContent
 {
     padding:5px;
-
+   text-decoration: none; 
 }
  a:visited{
      color:#777777;
 }
+a:hover{
+    text-decoration: none;
+}
 
- a:hover{
+ #faC:hover{
      color: red;
-     transition: color 1s;
+     transition: color 1s;     
 }
  section:hover {
      background-image:url("../images/circles(1).png");
 }
+
  aside:hover{
      background-image:url("../images/circles(1).png");
 }
@@ -112,4 +116,6 @@ h3{
      width:80%;
 }
  
- 
+ #faC{
+     color:#777777;
+}
