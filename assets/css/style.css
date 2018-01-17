@@ -76,7 +76,7 @@ a:hover {
     text-decoration: none;
 }
 
-#faC:hover {
+.faC:hover {
     color: red;
     transition: color 1s;
 }
