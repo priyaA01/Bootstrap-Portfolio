@@ -1,121 +1,137 @@
 /*Layout styles */
- body{
-     background-color: #4aaaa5;
-     height:100%;
-     min-height: 100%;
-     font-family:'Arial', sans-serif ;
-     font-size: 15px;
-     color:#777777;
-     background-image:url("../images/circles.png");
+
+body {
+    background-color: #4aaaa5;
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    background-image: url("../images/circles.png");
 }
 
- header{
-     padding-top:15px;    
+header {
+    padding-top: 15px;
 }
 
- #mainContainer{
-     max-width:960px; 
-     padding-bottom: 50px;
-      padding: 20px;
-}
- section{
-     border-color: #dddddd;   
-     background-color:#ffffff; 
-     padding-bottom:10px;
+#mainContainer {
+    max-width: 960px;
+    padding-bottom: 50px;
+    padding: 20px;
 }
 
- aside{    
-     border-color: #dddddd;
-     background-color:#ffffff;
-     padding-bottom:10px;
-     margin-top:20px;
-  
-}
- footer{
-     height:20px;     
-     background-color:#666666;      
-     color:white;     
-     border-top: 5px solid #4aaaa5;
+section {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    padding-bottom: 10px;
 }
 
- h1{
-    color:white;
-     font-size: 20px;
-     padding:10px;
-     font-family:'Georgia', Serif;
-     background-color: #4aaaa5;     
-}
- h2,h3{
-     padding:10px;
-     color:#4aaaa5;
-     font-family:'Georgia', Serif;
- }
-h2{
-font-size: 17px;
-}
-h3{
-   font-size: 14px; 
+aside {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    margin-top: 20px;
 }
 
-.contactContent
-{
-    padding:5px;
-   text-decoration: none; 
+footer {
+    height: 20px;
+    background-color: #666666;
+    color: white;
+    border-top: 5px solid #4aaaa5;
 }
- a:visited{
-     color:#777777;
+
+h1 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Georgia', Serif;
+    background-color: #4aaaa5;
 }
-a:hover{
+
+h2,
+h3 {
+    padding: 10px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Serif;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.contactContent {
+    padding: 5px;
     text-decoration: none;
 }
 
- #faC:hover{
-     color: red;
-     transition: color 1s;     
-}
- section:hover {
-     background-image:url("../images/circles(1).png");
+a:visited {
+    color: #777777;
 }
 
- aside:hover{
-     background-image:url("../images/circles(1).png");
-}
- p{
-     padding:3px;
-}
- img{
-     padding:10px;
+a:hover {
+    text-decoration: none;
 }
 
- form{
-     padding:10px;
+#faC:hover {
+    color: red;
+    transition: color 1s;
 }
- input[type=text],textarea{
-     width:100%;
+
+section:hover {
+    background-image: url("../images/circles(1).png");
 }
- button[type=submit]{
-     background-color:#4aaaa5;
-     color:white;
-     padding:5px 20px;
+
+aside:hover {
+    background-image: url("../images/circles(1).png");
 }
- .imageContainer{ 
-     padding:10px;
+
+p {
+    padding: 3px;
 }
-.imageContainer img{
-    position:relative;
-    width:100%;
-    }
- .imageContainer h3{
-     position:absolute;
-     bottom:30px;
-     left:20px;
-     right:20px;
-     text-align:center;
-     padding:10px;
-     color:white;
-     background-color: #4aaaa5;
+
+img {
+    padding: 10px;
 }
- 
- #faC{
-     color:#777777;
+
+form {
+    padding: 10px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+}
+
+button[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 20px;
+}
+
+.imageContainer {
+    padding: 10px;
+}
+
+.imageContainer img {
+    position: relative;
+    width: 100%;
+}
+
+.imageContainer h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.faC {
+    color: #777777;
 }

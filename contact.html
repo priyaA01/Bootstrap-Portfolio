@@ -1,92 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-
-    <meta charset="UTF-8">
-    <title>Priya Ammaiyappan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
-
-    <!-- Link to external CSS : fontawesome , reset , style-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-
-</head>
-
-<body>
-    <!-- Header of the page-->
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <header class="navbar-header">
-        <h1>Priya Ammaiyappan</h1>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      </header>
-
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li ><a href="index.html">About  |</a></li>
-          <li><a href="portfolio.html">Portfolio  |</a></li>
-          <li class="active"><a href="contact.html">Contact  </a></li>
-        </ul>
+   <head>
+      <meta charset="UTF-8">
+      <title>Priya Ammaiyappan</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+      <!-- Link to external CSS : fontawesome , reset , style-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   </head>
+   <body>
+      <!-- Header of the page-->
+      <nav class="navbar navbar-default">
+         <div class="container">
+            <header class="navbar-header">
+               <h1>Priya Ammaiyappan</h1>
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span> 
+               </button>
+            </header>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li ><a href="index.html">About  |</a></li>
+                  <li><a href="portfolio.html">Portfolio  |</a></li>
+                  <li class="active"><a href="contact.html">Contact  </a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container" id="mainContainer">
+         <div class="row">
+            <section class="col-md-9 col-sm-12">
+               <div class="page-header">
+                  <h2>Contact</h2>
+               </div>
+               <form>
+                  <div class="form-group">
+                     Name <br>
+                     <input type="text" class="form-control"  name="name" autofocus>
+                  </div>
+                  <div class="form-group">
+                     E-mail<br>
+                     <input type="text" class="form-control"  name="email">
+                  </div>
+                  <div class="form-group"> 
+                     Message<br>
+                     <textarea name="message" class="form-control"  rows="10"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+               </form>
+            </section>
+            <aside class="col-md-2 col-sm-12 col-md-offset-1">
+               <div class="page-header">
+                  <h3> Connect with Me </h3>
+               </div>
+               <a class="contactContent" href="https://www.linkedin.com/in/priya-ammaiyappan/" target="_blank">
+               <i class="fa fa-linkedin fa-2x faC" aria-hidden="true"></i> </a>
+               <a class="contactContent" href="https://github.com/priyaA01" target="_blank"><i class="fa fa-github fa-2x faC" aria-hidden="true"></i> </a>
+               <a class="contactContent" href="https://stackoverflow.com/users/9100806/pry?tab=topactivity" target="_blank"><i class="fa fa-stack-overflow fa-2x faC" aria-hidden="true"></i>  </a>    
+            </aside>
+         </div>
       </div>
-    </div>
-  </nav>
-
-
-    <div class="container" id="mainContainer">
-       <div class="row">
-        <section class="col-md-9 col-sm-12">
-            <div class="page-header">
-            <h2>Contact</h2>             
-            </div>           
-            <form>
-                <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control"  name="name" autofocus>
-                </div>
-                <div class="form-group">
-                <label for="name">E-mail</label>
-                <input type="text" class="form-control"  name="email">
-                </div>
-                <div class="form-group"> 
-                <label for="message">Message</label>
-                <textarea name="message" class="form-control"  rows="10"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-default">Submit</button>
-                
-            </form>
-        </section>
-        <aside class="col-md-2 col-sm-12 col-md-offset-1">
-          <div class="page-header">
-            <h3> Connect with Me </h3>
-          </div>
-             <a class="contactContent" href="https://www.linkedin.com/in/priya-ammaiyappan/" target="_blank">
-               <i id="faC" class="fa fa-linkedin fa-2x"></i> </a>
-            <a class="contactContent" href="https://github.com/priyaA01" target="_blank"><i id="faC" class="fa fa-github fa-2x" aria-hidden="true"></i> </a>
-            <a class="contactContent" href="https://stackoverflow.com/users/9100806/pry?tab=topactivity" target="_blank"><i id="faC" class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>  </a>
-        </aside>
-    </div>
-    
-  </div>
-    <!-- page footer -->
-    <footer class="footer navbar-fixed-bottom text-center " > <!-- text-muted -->
-        
-          &copy; Copyright 2018 Priya Ammaiyappan
-       
+      <!-- page footer -->
+      <footer class="footer navbar-fixed-bottom text-center " >
+         <!-- text-muted -->
+         &copy; Copyright 2018 Priya Ammaiyappan
       </footer>
-
-</body>
-
+   </body>
 </html>
