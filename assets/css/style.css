@@ -1,137 +1,125 @@
+ html{
+     min-height: 100%;
+     position:relative;
+}
 /*Layout styles */
-
-body {
-    background-color: #4aaaa5;
-    height: 100%;
-    min-height: 100%;
-    font-family: 'Arial', sans-serif;
-    font-size: 15px;
-    color: #777777;
-    background-image: url("../images/circles.png");
+ body {
+     background-color: #4aaaa5;
+     height: 100%;
+     min-height: 100%;
+     font-family: 'Arial', sans-serif;
+     font-size: 15px;
+     color: #777777;
+     background-image: url("../images/circles.png");
 }
-
-header {
-    padding-top: 15px;
+ header {
+     padding-top: 15px;
 }
-
-#mainContainer {
-    max-width: 960px;
-    padding-bottom: 50px;
-    padding: 20px;
+ #mainContainer {
+     max-width: 960px;
+     padding-bottom: 50px;
+     padding: 20px;
+     margin-bottom:50px;
 }
-
-section {
-    border-color: #dddddd;
-    background-color: #ffffff;
-    padding-bottom: 10px;
+ section {
+     border-color: #dddddd;
+     background-color: #ffffff;
+     padding-bottom: 10px;
 }
-
-aside {
-    border-color: #dddddd;
-    background-color: #ffffff;
-    padding-bottom: 10px;
-    margin-top: 20px;
+ aside {
+     border-color: #dddddd;
+     background-color: #ffffff;
+     padding-bottom: 10px;
+     margin-top: 20px;
 }
-
-footer {
-    height: 20px;
-    background-color: #666666;
-    color: white;
-    border-top: 5px solid #4aaaa5;
+ footer {
+     position:absolute;
+     bottom:0;
+     left:0;
+     height: 20px;
+     width:100%;
+     background-color: #666666;
+     color: white;
+     border-top: 5px solid #4aaaa5;
 }
-
-h1 {
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    font-family: 'Georgia', Serif;
-    background-color: #4aaaa5;
+ h1 {
+     color: white;
+     font-size: 40px;
+     padding: 10px;
+     font-family: 'Georgia', Serif;
+     background-color: #4aaaa5;
 }
-
-h2,
-h3 {
-    padding: 10px;
-    color: #4aaaa5;
-    font-family: 'Georgia', Serif;
+ h2, h3 {
+     color: #4aaaa5;
+     font-family: 'Georgia', Serif;
 }
-
-h2 {
-    font-size: 17px;
+ h2 {
+     font-size: 30px;
 }
-
-h3 {
-    font-size: 14px;
+ h3 {
+     font-size: 25px;
 }
-
-.contactContent {
-    padding: 5px;
-    text-decoration: none;
+ .aboutContent{
+     padding: 3px;
+     line-height: 18px;
 }
-
-a:visited {
-    color: #777777;
+ .contactContent {
+     padding: 5px;
+     text-decoration: none;
 }
-
-a:hover {
-    text-decoration: none;
+ a:visited {
+     color: #777777;
 }
-
-.faC:hover {
-    color: red;
-    transition: color 1s;
+ a:hover {
+     text-decoration: none;
 }
-
-section:hover {
-    background-image: url("../images/circles(1).png");
+ .faC:hover {
+     color: red;
+     transition: color 1s;
 }
-
-aside:hover {
-    background-image: url("../images/circles(1).png");
+ section:hover {
+     background-image: url("../images/circles(1).png");
 }
-
-p {
-    padding: 3px;
+ aside:hover {
+     background-image: url("../images/circles(1).png");
 }
-
-img {
-    padding: 10px;
+ p {
+     padding: 3px;
 }
-
-form {
-    padding: 10px;
+ .aboutImg {
+     height:auto;
+     padding: 10px;
+     border-radius:10%;
 }
-
-input[type=text],
-textarea {
-    width: 100%;
+ form {
+     padding: 10px;
 }
-
-button[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 5px 20px;
+ input[type=text], textarea {
+     width: 100%;
 }
-
-.imageContainer {
-    padding: 10px;
+ button[type=submit] {
+     background-color: #4aaaa5;
+     color: white;
+     padding: 5px 20px;
 }
-
-.imageContainer img {
-    position: relative;
-    width: 100%;
+ .imageContainer {
+     padding: 40px;
 }
-
-.imageContainer h3 {
-    position: absolute;
-    bottom: 30px;
-    left: 20px;
-    right: 20px;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    background-color: #4aaaa5;
+ .imageContainer img {
+     position: relative;
+     width: 100%;
+     border-radius:5%;
 }
-
-.faC {
-    color: #777777;
+ .imageText {
+     position: absolute;
+     bottom: 70px;
+     left: 40px;
+     right: 40px;
+     text-align: center;
+     padding: 10px;
+     color: white;
+     background-color: #4aaaa5;
+}
+ .faC {
+     color: #777777;
 }
